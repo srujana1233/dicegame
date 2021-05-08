@@ -92,4 +92,5 @@ btnNew.addEventListener('click', () => {
     player0E1.classList.remove('player--winner');
     player0E1.classList.add('player--active');
     player1E1.classList.remove('player--active');
+    playing = true;
 })
